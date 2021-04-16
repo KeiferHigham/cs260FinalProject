@@ -19,7 +19,7 @@
 </div>
 
 
-  <div class="github-footer-fixed"><a href='https://github.com/ktrencher/CreativeProject4'><img src='../images/github-dark.svg' /></a></div>
+  <div class="github-footer-fixed"><a href='https://github.com/KeiferHigham/cs260FinalProject'><img src='../images/github-dark.svg' /></a></div>
   </div>
 
 </template>

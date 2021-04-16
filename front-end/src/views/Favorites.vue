@@ -3,6 +3,7 @@
     <h1>My Favorites list</h1>
     <div id="favorites">
       <div class="movies" v-for="(movie) in userMovies" :key="movie.data.id">
+        <div v-if="movie.data.title != null">
         <div class="movie">
           <h2>{{movie.data.title}}</h2>
           <div class="movieGroup">
@@ -10,6 +11,7 @@
           <button @click="Remove(movie)"> Remove </button>
         </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
